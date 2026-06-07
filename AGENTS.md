@@ -21,6 +21,43 @@ skills/*/SKILL.md
 - `skills/cashflow-offer-builder/SKILL.md`
 - `skills/business-retrospective/SKILL.md`
 
+## Project Structure Direction
+
+本项目后期应演进为：
+
+```text
+AI 商业实验室操作系统
+```
+
+核心结构分层：
+
+```text
+Kernel      稳定大脑
+Workflows   可重复工作方式
+Experiments 商业验证现场
+Runtime     执行环境和界面
+```
+
+目标结构说明见：
+
+- `README.md`
+- `product/structure.md`
+- `runtime/architecture.md`
+- `deploy/startup.md`
+
+当前存在一批 legacy-compatible 目录：
+
+- `principles/`
+- `methods/`
+- `skills/`
+- `rubrics/`
+- `signals/`
+- `sources/`
+- `reports/`
+- `runs/`
+
+不要贸然搬迁旧目录。新增内容优先进入新结构，旧内容按迁移计划逐步移动。
+
 ## Operating Doctrine
 
 本项目的核心目标不是生产漂亮报告，而是验证：
