@@ -24,3 +24,22 @@ Web + API + Worker + Scheduler + 数据存储 + Git + LLM
 详细说明见：
 
 - `architecture.md`
+- `adapters/hermes-evaluation.md`
+
+## 通知与确认
+
+自主运行前必须先建立异步沟通规则。
+
+当前通知协议见：
+
+- `notifications/protocol.md`
+- `notifications/channel-leverage-evaluation.md`
+
+核心原则：
+
+```text
+AI 静默执行低风险内部任务。
+需要用户授权或判断时，再通过通知通道请求确认。
+```
+
+当前第一版不自研接入。先用 Codex 线程和人工转发验证通知协议；只有通道价值被证明后，才评估 Apprise、飞书自定义机器人、ntfy、PushDeer 等借力方案。

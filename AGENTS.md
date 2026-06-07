@@ -44,6 +44,7 @@ Runtime     执行环境和界面
 - `product/structure.md`
 - `runtime/architecture.md`
 - `deploy/startup.md`
+- `operations/autonomous-collaboration-interface.md`
 
 当前存在一批 legacy-compatible 目录：
 
@@ -69,6 +70,7 @@ Runtime     执行环境和界面
 所有方案必须服从：
 
 ```text
+选择优先
 简单
 持久
 挣钱
@@ -76,9 +78,20 @@ Runtime     执行环境和界面
 
 对应项目原则：
 
+- `principles/choice-before-effort.md`
 - `principles/simple-durable-profitable.md`
 - `principles/mutual-improvement-and-direct-feedback.md`
 - `principles/leverage-and-small-boat.md`
+
+执行任何开发、通道接入、自动化或商业实验前，必须先判断：
+
+```text
+做不做？
+现在做不做？
+自己做还是借力？
+能不能先人工验证？
+这件事是否更接近现金流？
+```
 
 默认工作循环：
 
@@ -166,6 +179,25 @@ Runtime     执行环境和界面
 - 进行高风险平台操作
 
 当用户已经授权继续推进时，优先主动执行可逆、低风险、项目内资产相关的工作。
+
+自主协作默认边界见：
+
+- `operations/autonomous-collaboration-interface.md`
+
+默认可以静默推进 L0/L1/L2：
+
+```text
+内部整理
+公开调研
+草稿准备
+```
+
+默认不得自动推进 L3/L4：
+
+```text
+外部动作
+高风险动作
+```
 
 ## Direct Feedback
 

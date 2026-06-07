@@ -23,6 +23,14 @@ AI 商业实验室能否把高考后的现实消费窗口，
 - `delivery-template.md`：交付模板
 - `sample-one-page-pack.md`：一页样例包
 - `sample-variants.md`：餐饮/摄影/驾校三类样例方向
+- `photography-one-page-sample.md`：摄影写真方向一页样例
+- `photography-merchant-visible-sample.md`：商家愿意看样例后的可发样例草案
+- `photography-candidate-adaptations.md`：摄影候选适配角度
+- `photography-pre-outreach-prep.md`：摄影方向正式触达前准备包
+- `merchant-reply-handling.md`：商家回复处理表
+- `next-action-control-panel.md`：下一步控制面板和当前 P0 选择
+- `subdirection-comparison.md`：摄影/餐饮/驾校子方向对照
+- `validation-memo-current-assumptions.md`：触达前验证假设预填版
 - `target-sourcing-plan.md`：目标商家寻找计划
 - `target-candidates-public-v0.md`：公开候选商家记录表
 - `outreach-script.md`：触达话术
@@ -30,6 +38,7 @@ AI 商业实验室能否把高考后的现实消费窗口，
 - `feedback-log.csv`：反馈记录
 - `conversion-log.csv`：转化记录
 - `validation-memo-template.md`：复盘模板
+- `current-execution-queue.md`：当前执行队列和第一子方向选择
 
 ## Why This Replaces Experiment 003
 

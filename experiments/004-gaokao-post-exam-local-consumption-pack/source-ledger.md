@@ -77,6 +77,12 @@ https://thehutong.com/9921/
 https://www.mortons.com/beijing-private-events/
 https://www.cvent.com/venues/zh-CN/beijing/restaurant/xiaolumian/venue-dbdd9606-12f1-46d3-a8f1-40a53d8f7833
 https://www.fourseasons.com/zh/beijing/meetings-and-events/
+https://cafezarah.com/
+https://www.easthotels.com/en/beijing/meetings-and-events/feast/
+https://muluworld.com/
+https://www.panpacific.com/en/hotels-and-resorts/pp-beijing/dining/keyaki.html
+https://www.nuohotel.com/en/nuo-hotel-beijing/restaurants-bars/jia-chinese-restaurant
+https://www.trbhutong.com/
 ```
 
 摄影：
@@ -87,6 +93,13 @@ https://www.bj188.com/
 https://www.wutu.cn/html/tuandui
 https://paizhao.org/
 https://home.xiangshenghang.com/
+https://www.xnnphoto.com/
+https://www.hxpstudio.com/
+https://www.yingjisheying.com/
+https://www.luyaophoto.cn/
+https://www.owlphoto.com/
+https://www.heyixuan-studio.com/
+https://onejoys.com/
 ```
 
 驾校：
@@ -97,6 +110,8 @@ https://www.bfjx.org/
 https://www.haijia.com.cn/
 https://www.dfss.com.cn/
 https://www.lqtv.net/
+https://www.jingdongjx.com/
+https://www.shenghuajiaxiao.com/a/jxwd
 ```
 
 行业信号：

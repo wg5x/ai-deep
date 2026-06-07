@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>任务启动台 | AI 商业实验室</title>
+    <meta name="description" content="AI 商业实验室任务启动台：填写必要资源、边界、反馈节奏和沟通方式，生成可执行启动单。">
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="返回 AI 商业实验室首页">
+        <span class="brand-mark">AI</span>
+        <span>任务启动台</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#start">任务启动</a>
+        <a href="#feedback">阶段反馈</a>
+        <a href="#contact">沟通方式</a>
+        <a href="#routine">日常协作</a>
+        <a href="./index.html">返回首页</a>
+      </nav>
+    </header>
+
+    <main id="top" class="launch-page">
+      <section class="launch-hero">
+        <div>
+          <p class="eyebrow">Cashflow Vending Machine</p>
+          <h1>填一次启动单，AI 就开始做事</h1>
+          <p class="lead">
+            你只需要告诉系统能给什么、不能做什么、多久反馈一次、怎么找你。
+            正常推进时 AI 自己跑；需要授权、卡住、花钱、发布、触达或收款时再找你确认。
+          </p>
+        </div>
+        <aside class="launch-summary" aria-label="页面规则">
+          <h2>默认边界</h2>
+          <ul>
+            <li>不自动联系真实客户</li>
+            <li>不自动发布公开内容</li>
+            <li>不自动花钱或收款</li>
+            <li>不承诺收益或结果</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="launch-workspace">
+        <form id="launchForm" class="launch-form" aria-label="任务启动表">
+          <section id="start" class="form-panel">
+            <div class="form-panel-heading">
+              <p class="eyebrow">1. 任务启动</p>
+              <h2>我需要给 AI 什么</h2>
+              <p>把你现在能投入的资源写清楚。填好后点“确定”，AI 就可以根据这些输入开始找货、包装、设计实验和准备执行资产。</p>
+            </div>
+
+            <div class="field">
+              <span>我能提供什么 <strong>默认已选，可多选</strong></span>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="resources" value="每周 1 小时以内，只做关键判断"> 每周 1 小时以内，只做关键判断</label>
+                <label><input type="checkbox" name="resources" value="每周 2-5 小时，可审核和少量执行" checked> 每周 2-5 小时，可审核和少量执行</label>
+                <label><input type="checkbox" name="resources" value="500 元以内测试预算"> 500 元以内测试预算</label>
+                <label><input type="checkbox" name="resources" value="暂不投钱，只做免费测试" checked> 暂不投钱，只做免费测试</label>
+                <label><input type="checkbox" name="resources" value="小红书账号"> 小红书账号</label>
+                <label><input type="checkbox" name="resources" value="微信/朋友圈/社群"> 微信/朋友圈/社群</label>
+                <label><input type="checkbox" name="resources" value="北京本地观察和线下场景"> 北京本地观察和线下场景</label>
+                <label><input type="checkbox" name="resources" value="让 AI 根据现有资产判断"> 让 AI 根据现有资产判断</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <span>优先卖什么</span>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="offerTypes" value="本地商家服务"> 本地商家服务</label>
+                <label><input type="checkbox" name="offerTypes" value="数字资料包"> 数字资料包</label>
+                <label><input type="checkbox" name="offerTypes" value="模板/清单"> 模板/清单</label>
+                <label><input type="checkbox" name="offerTypes" value="AI 代做服务"> AI 代做服务</label>
+                <label><input type="checkbox" name="offerTypes" value="内容产品"> 内容产品</label>
+                <label><input type="checkbox" name="offerTypes" value="让 AI 判断" checked> 让 AI 判断</label>
+              </div>
+            </div>
+
+            <fieldset class="field">
+              <legend>现金流目标 <strong>必填</strong></legend>
+              <label><input type="radio" name="cashGoal" value="7 天内拿到 5 个真实回复" required> 7 天内拿到 5 个真实回复</label>
+              <label><input type="radio" name="cashGoal" value="7 天内试出第一个 499 元订单" checked> 7 天内试出第一个 499 元订单</label>
+              <label><input type="radio" name="cashGoal" value="先验证 1 个可卖货源，不急着收钱"> 先验证 1 个可卖货源，不急着收钱</label>
+              <label><input type="radio" name="cashGoal" value="让 AI 设定第一轮 7 天验证目标"> 让 AI 设定第一轮 7 天验证目标</label>
+            </fieldset>
+          </section>
+
+          <section class="form-panel">
+            <div class="form-panel-heading">
+              <p class="eyebrow">2. 授权边界</p>
+              <h2>哪些事不能做</h2>
+              <p>这里越清楚，AI 越能自己推进。没写清楚的高风险动作默认不执行。</p>
+            </div>
+
+            <div class="field">
+              <span>我不愿意做什么 <strong>默认已选，可多选</strong></span>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="constraints" value="不联系熟人" checked> 不联系熟人</label>
+                <label><input type="checkbox" name="constraints" value="不露脸" checked> 不露脸</label>
+                <label><input type="checkbox" name="constraints" value="不投广告" checked> 不投广告</label>
+                <label><input type="checkbox" name="constraints" value="不自动发布公开内容" checked> 不自动发布公开内容</label>
+                <label><input type="checkbox" name="constraints" value="不自动联系真实客户" checked> 不自动联系真实客户</label>
+                <label><input type="checkbox" name="constraints" value="不自动收款或承诺收益" checked> 不自动收款或承诺收益</label>
+                <label><input type="checkbox" name="constraints" value="不碰金融、医疗、法律等高风险行业" checked> 不碰金融、医疗、法律等高风险行业</label>
+                <label><input type="checkbox" name="constraints" value="不做重售后服务"> 不做重售后服务</label>
+                <label><input type="checkbox" name="constraints" value="不收集未成年人敏感信息" checked> 不收集未成年人敏感信息</label>
+                <label><input type="checkbox" name="constraints" value="不确定时必须先问我"> 不确定时必须先问我</label>
+              </div>
+            </div>
+
+            <fieldset class="field">
+              <legend>我授权 AI 做到哪一步 <strong>必填</strong></legend>
+              <label><input type="radio" name="authorization" value="只生成方案，不准备外部动作" required> 只生成方案，不准备外部动作</label>
+              <label><input type="radio" name="authorization" value="可以准备候选、报价、话术和样例，但不发送" checked> 可以准备候选、报价、话术和样例，但不发送</label>
+              <label><input type="radio" name="authorization" value="可以把待批准动作整理成清单，等我点头"> 可以把待批准动作整理成清单，等我点头</label>
+            </fieldset>
+          </section>
+
+          <section id="feedback" class="form-panel">
+            <div class="form-panel-heading">
+              <p class="eyebrow">3. 阶段反馈</p>
+              <h2>反馈节奏</h2>
+              <p>正常推进时不打扰你；到节点时只给结论、证据和需要你判断的地方。</p>
+            </div>
+
+            <label class="field">
+              <span>反馈节奏 <strong>必填</strong></span>
+              <select name="cadence" required>
+                <option value="每周一次">每周一次</option>
+                <option value="每 3 天一次">每 3 天一次</option>
+                <option value="每个实验阶段结束">每个实验阶段结束</option>
+                <option value="只有卡住或需要授权时">只有卡住或需要授权时</option>
+              </select>
+            </label>
+
+            <div class="field">
+              <span>反馈必须包含</span>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="feedbackItems" value="做了什么" checked> 做了什么</label>
+                <label><input type="checkbox" name="feedbackItems" value="发现什么" checked> 发现什么</label>
+                <label><input type="checkbox" name="feedbackItems" value="现金流信号" checked> 现金流信号</label>
+                <label><input type="checkbox" name="feedbackItems" value="下一步判断" checked> 下一步判断</label>
+              </div>
+            </div>
+          </section>
+
+          <section id="contact" class="form-panel">
+            <div class="form-panel-heading">
+              <p class="eyebrow">4. 沟通方式</p>
+              <h2>飞书或机器人</h2>
+              <p>第一版只记录沟通偏好，不会真的推送。后续接入 Worker 后，再用这里的配置主动联系你。</p>
+            </div>
+
+            <label class="field">
+              <span>首选沟通方式 <strong>必填</strong></span>
+              <select name="contact" required>
+                <option value="飞书机器人">飞书机器人</option>
+                <option value="飞书群">飞书群</option>
+                <option value="微信">微信</option>
+                <option value="Codex 线程">Codex 线程</option>
+                <option value="暂不主动联系">暂不主动联系</option>
+              </select>
+            </label>
+
+            <fieldset class="field">
+              <legend>机器人配置状态</legend>
+              <label><input type="radio" name="contactDetail" value="暂不提供敏感配置，先由 AI 记录偏好" checked> 暂不提供敏感配置</label>
+              <label><input type="radio" name="contactDetail" value="飞书群已准备好，后续由用户提供 Webhook"> 飞书群已准备好</label>
+              <label><input type="radio" name="contactDetail" value="需要 AI 后续给出飞书机器人配置清单"> 需要 AI 后续给配置清单</label>
+            </fieldset>
+          </section>
+
+          <section id="routine" class="form-panel">
+            <div class="form-panel-heading">
+              <p class="eyebrow">5. 日常协作</p>
+              <h2>AI 平时怎么做事</h2>
+              <p>你去忙你的事。AI 按低风险内部动作持续推进；遇到边界、阻塞或需要外部动作时再确认。</p>
+            </div>
+
+            <div class="field">
+              <span>日常协作偏好</span>
+              <div class="choice-grid">
+                <label><input type="checkbox" name="routine" value="正常推进时继续执行" checked> 正常推进时继续执行</label>
+                <label><input type="checkbox" name="routine" value="卡住时再问我" checked> 卡住时再问我</label>
+                <label><input type="checkbox" name="routine" value="需要外部触达时再问我" checked> 需要外部触达时再问我</label>
+                <label><input type="checkbox" name="routine" value="需要发布、花钱、收款时必须确认" checked> 需要发布、花钱、收款时必须确认</label>
+                <label><input type="checkbox" name="routine" value="每周固定给阶段反馈"> 每周固定给阶段反馈</label>
+                <label><input type="checkbox" name="routine" value="只在有现金流信号时提醒"> 只在有现金流信号时提醒</label>
+              </div>
+            </div>
+
+            <div class="button-row">
+              <button class="primary-action" type="submit">确定，生成启动单</button>
+              <button class="secondary-action" type="reset">清空</button>
+            </div>
+          </section>
+        </form>
+
+        <aside class="launch-output-panel" aria-label="启动单输出">
+          <div class="output-heading">
+            <div>
+              <p class="eyebrow">Launch Brief</p>
+              <h2>启动单</h2>
+            </div>
+            <button id="copyBrief" class="secondary-action" type="button">复制</button>
+          </div>
+          <pre id="launchOutput" tabindex="0">填完左侧表单后，这里会生成一份启动单。把它交给 AI，就可以开始执行。</pre>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>任务启动台</span>
+      <span>填好以后，AI 去做事</span>
+    </footer>
+
+    <script>
+      const form = document.querySelector("#launchForm");
+      const output = document.querySelector("#launchOutput");
+      const copyButton = document.querySelector("#copyBrief");
+
+      function valuesFor(name) {
+        return Array.from(form.querySelectorAll(`[name="${name}"]:checked`)).map((item) => item.value);
+      }
+
+      function valueFor(name) {
+        const selected = form.querySelector(`[name="${name}"]:checked`);
+        if (selected) {
+          return selected.value;
+        }
+        const item = form.elements[name];
+        return item ? item.value : "";
+      }
+
+      function withFallback(value, fallback) {
+        return value && value.length > 0 ? value : fallback;
+      }
+
+      function buildLaunchBrief() {
+        const resources = valuesFor("resources");
+        const offerTypes = valuesFor("offerTypes");
+        const constraints = valuesFor("constraints");
+        const feedbackItems = valuesFor("feedbackItems");
+        const routine = valuesFor("routine");
+        const authorization = form.querySelector('[name="authorization"]:checked')?.value || "";
+
+        return [
+          "# AI 现金流售卖机启动单",
+          "",
+          "## 1. 任务启动",
+          `我能提供：${resources.length ? resources.join("、") : "让 AI 根据现有资产判断"}`,
+          `优先卖什么：${offerTypes.length ? offerTypes.join("、") : "让 AI 判断"}`,
+          `现金流目标：${valueFor("cashGoal")}`,
+          "",
+          "## 2. 授权边界",
+          `不能做：${constraints.length ? constraints.join("、") : "不确定时必须先问我"}`,
+          `授权范围：${authorization}`,
+          "",
+          "## 3. 阶段反馈",
+          `反馈节奏：${valueFor("cadence")}`,
+          `反馈内容：${feedbackItems.length ? feedbackItems.join("、") : "做了什么、发现什么、现金流信号、下一步判断"}`,
+          "",
+          "## 4. 沟通方式",
+          `首选方式：${valueFor("contact")}`,
+          `联系配置：${valueFor("contactDetail")}`,
+          "",
+          "## 5. 日常协作",
+          `协作偏好：${routine.length ? routine.join("、") : "正常推进时继续执行；卡住、需要授权、外部触达、发布、花钱、收款时再确认"}`,
+          "",
+          "## 6. AI 下一步",
+          "1. 根据资源和边界筛选 3 个可售货源。",
+          "2. 选出 1 个优先现金流实验。",
+          "3. 准备候选名单、报价、话术、样例包和待批准动作。",
+          "4. 按反馈节奏汇报阶段结果。",
+        ].join("\n");
+      }
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (!form.reportValidity()) {
+          return;
+        }
+        output.textContent = buildLaunchBrief();
+      });
+
+      form.addEventListener("reset", () => {
+        window.setTimeout(() => {
+          output.textContent = "填完左侧表单后，这里会生成一份启动单。把它交给 AI，就可以开始执行。";
+        }, 0);
+      });
+
+      copyButton.addEventListener("click", async () => {
+        const text = output.textContent;
+        try {
+          await navigator.clipboard.writeText(text);
+          copyButton.textContent = "已复制";
+          window.setTimeout(() => {
+            copyButton.textContent = "复制";
+          }, 1200);
+        } catch {
+          output.focus();
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -62,6 +62,7 @@ Web 前端
 项目必须长期服从：
 
 ```text
+选择优先
 简单
 持久
 挣钱
@@ -110,3 +111,10 @@ experiments/004-gaokao-post-exam-local-consumption-pack/
 ## 7. 重要说明
 
 当前仓库已经中文优先，但早期文档仍有英文残留。后续应按 `product/structure.md` 逐步迁移，不一次性重构。
+
+## 8. 自主协作入口
+
+用户与 Agent 的资源、权限、通知和外部动作边界见：
+
+- `operations/autonomous-collaboration-interface.md`
+- `runtime/notifications/protocol.md`
