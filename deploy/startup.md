@@ -38,14 +38,14 @@ cd ai-life
 示例：
 
 ```bash
-cd apps/web
+cd ai-life
 python3 -m http.server 3000
 ```
 
 访问：
 
 ```text
-http://server-ip:3000
+http://server-ip:3000/apps/web/
 ```
 
 该阶段只有展示，不执行 Agent。

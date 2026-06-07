@@ -1,0 +1,47 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI 商业实验室运行图</title>
+  <desc id="desc">展示从外部信号到 Agent Worker、项目内核、数据记录、人工批准和前端展示的运行链路。</desc>
+  <rect width="960" height="640" rx="0" fill="#F9FAF8"/>
+  <rect x="48" y="56" width="864" height="528" rx="8" fill="#FFFFFF" stroke="#D8DED6"/>
+
+  <text x="86" y="112" fill="#1F2420" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="32" font-weight="800">AI 商业实验室运行链路</text>
+  <text x="86" y="148" fill="#5F6860" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18">内部自动化可以跑，外部动作必须由人批准。</text>
+
+  <rect x="86" y="206" width="166" height="86" rx="8" fill="#E4EFE8" stroke="#B9D0C0"/>
+  <text x="116" y="240" fill="#2F6F4E" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">外部世界</text>
+  <text x="116" y="268" fill="#4F5C53" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">新闻 / 政策 / 商机</text>
+
+  <rect x="308" y="206" width="166" height="86" rx="8" fill="#F6E7E4" stroke="#EBC8C2"/>
+  <text x="338" y="240" fill="#A63D32" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">Agent Worker</text>
+  <text x="338" y="268" fill="#4F5C53" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">观察 / 扩展 / 生成</text>
+
+  <rect x="530" y="206" width="166" height="86" rx="8" fill="#EEF3F7" stroke="#C5D5E2"/>
+  <text x="560" y="240" fill="#315F86" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">项目内核</text>
+  <text x="560" y="268" fill="#4F5C53" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">原则 / 技能 / 流程</text>
+
+  <rect x="752" y="206" width="126" height="86" rx="8" fill="#FFF4DD" stroke="#E5C987"/>
+  <text x="784" y="240" fill="#A57927" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">数据</text>
+  <text x="784" y="268" fill="#4F5C53" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">反馈 / 转化</text>
+
+  <path d="M252 249H296" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M286 239L296 249L286 259" stroke="#738078" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M474 249H518" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M508 239L518 249L508 259" stroke="#738078" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M696 249H740" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M730 239L740 249L730 259" stroke="#738078" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="184" y="376" width="210" height="96" rx="8" fill="#FFFFFF" stroke="#D8DED6"/>
+  <text x="218" y="412" fill="#1F2420" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">待批准队列</text>
+  <text x="218" y="440" fill="#5F6860" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">发布 / 触达 / 收款</text>
+
+  <rect x="478" y="376" width="300" height="96" rx="8" fill="#FFFFFF" stroke="#D8DED6"/>
+  <text x="512" y="412" fill="#1F2420" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800">Web 展示与操作台</text>
+  <text x="512" y="440" fill="#5F6860" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15">状态 / 实验 / 信号 / 下一步</text>
+
+  <path d="M391 292V360H289V376" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M613 292V340H628V376" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M394 424H466" stroke="#738078" stroke-width="3" stroke-linecap="round"/>
+  <path d="M456 414L466 424L456 434" stroke="#738078" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="86" y="534" fill="#5F6860" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16">当前：Codex + 文件 + Git。未来：Web + API + Worker + Scheduler + Data。</text>
+</svg>

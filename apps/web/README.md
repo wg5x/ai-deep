@@ -13,6 +13,25 @@
 - 人工批准边界
 - 中文化状态
 
+当前入口：
+
+```text
+index.html
+```
+
+本地预览：
+
+```bash
+cd ai-life
+python3 -m http.server 3000
+```
+
+访问：
+
+```text
+http://localhost:3000/apps/web/
+```
+
 ## 后续目标
 
 升级为轻量操作台：
